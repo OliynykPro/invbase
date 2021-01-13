@@ -1,0 +1,32 @@
+.header-main {
+    padding-top: 0px;
+}
+
+.header-main .container-fluid {
+    padding: 15px 25px;
+    background-color: #ffc600; /*#ffbe76;*/
+    border-radius: 0 0 15px 15px;
+}
+
+.header-main .container-fluid .logo {
+    line-height: 0;
+}
+
+.header-main .container-fluid .logo img {
+    width: 140px;
+    filter: invert(100%);
+}
+
+.header-main .menu {
+    padding-left: 30px;
+}
+
+.header-main ul li {
+    margin-right: 10px;
+}
+
+.header-main ul li a {
+    font-size: 18px;
+    transition: 1s ease all;
+    /* color: #ffffff!important; */
+}

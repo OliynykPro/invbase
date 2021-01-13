@@ -1,0 +1,40 @@
+body {
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+.title-row {
+    margin: 2rem 0 1rem 0;
+}
+
+.layout-body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+.button-custom {
+    border-radius: 7px;
+}
+
+.button-custom.white {
+    color: #ffbe76;
+    border-color: #ffffff;
+    background-color: #ffffff;
+}

@@ -1,0 +1,114 @@
+.footer {
+    margin-top: 5rem;
+    padding: .5rem 1rem;
+    padding-bottom: 18px;
+}
+
+.footer .container-fluid {
+    overflow: hidden;
+    padding: 75px 25px;
+    position: relative;
+    border-radius: 15px;
+    background-color: #fafafb;
+}
+
+.footer .container-fluid .pattern-background {
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-45%);
+    -ms-transform: translate(-50%,-45%);
+    transform: translate(-50%,-45%);
+    position: absolute;
+    pointer-events: none;
+}
+
+.footer .logo p {
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 85%;
+    margin-top: 10px;
+    border-radius: 7px;
+    display: inline-block;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+.footer .logo p span {
+    padding: 8px;
+    line-height: 1;
+    display: block;
+    margin-top: 8px;
+    font-weight: 400;
+    color: #000000;
+    font-size: 13.5px;
+    border-radius: 5px;
+    background: #ffc600; /*#ffbe76;*/
+}
+
+.footer .logo p span a {
+    transition: 1s ease all;
+    color: #000000!important;
+    text-decoration: underline;
+}
+
+.footer .logo p span a:hover {
+    text-decoration: none;
+}
+
+.footer .info {
+    text-align: right;
+}
+
+.footer .info p.author {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer .info p.author > span {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: initial;
+}
+
+.footer .info p.author > span .name {
+    border-bottom: 3px solid #ffc600;
+}
+
+.footer .info p.poweredby {
+    font-size: 12px;
+}
+
+.footer .info p.poweredby span {
+    display: block;
+}
+
+.footer .info p a {
+    display: block;
+    color: #000000;
+    text-decoration: underline;
+}
+
+.footer .info p a:hover {
+    text-decoration: none;
+}
+
+.footer .info p.social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+    transition: 1s ease all;
+}
+
+.footer .info p.social-icons a:hover {
+    opacity: 0.75;
+}
+
+.footer .info p.social-icons a:last-child {
+    margin-right: 0px;
+}
+
+.footer .info p.social-icons a img {
+    width: 16px;
+}
