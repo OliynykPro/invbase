@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import Header from './layout/header/Header';
 import Footer from './layout/footer/Footer';
@@ -25,7 +25,7 @@ class App extends Component {
     render() {
         return (
             <Provider store={store}>
-                <Router>
+                <BrowserRouter>
                     <div className="layout-body">
                         <Header />
                         <div className="content">
@@ -40,7 +40,7 @@ class App extends Component {
                         </div>
                         <Footer />
                     </div>
-                </Router>
+                </BrowserRouter>
             </Provider>
         )
     }
