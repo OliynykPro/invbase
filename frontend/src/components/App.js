@@ -25,7 +25,7 @@ class App extends Component {
     render() {
         return (
             <Provider store={store}>
-                <BrowserRouter>
+                <Router>
                     <div className="layout-body">
                         <Header />
                         <div className="content">
@@ -40,7 +40,7 @@ class App extends Component {
                         </div>
                         <Footer />
                     </div>
-                </BrowserRouter>
+                </Router>
             </Provider>
         )
     }

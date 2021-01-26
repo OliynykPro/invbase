@@ -14,7 +14,8 @@ export class Footer extends Component {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-xs-12 col-md-6 logo">
-                            <p>InvestorBASE<span>Special Project for <a href="#">Shop-Express</a></span></p>
+                            {/* <p>InvestorBASE<span>Special Project for <a href="#">Shop-Express</a></span></p> */}
+                            <p>InvestorBASE<span>MVP <a href="#">(beta 0.1)</a></span></p>
                         </div>
                         <div className="col-xs-12 col-md-6 info">
                             <p className="author">Designed and developed <span>by <span className="name">Taras Oliynyk</span> in Kyiv</span></p>

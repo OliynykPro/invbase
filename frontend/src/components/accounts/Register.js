@@ -43,12 +43,12 @@ export class Register extends Component {
             <div>
                 <div className="container-fluid">
                     <div className="row title-row">
-                        <div className="col-sm-12">
+                        <div className="col-sm-3 mx-auto">
                             <h1>Registration form</h1>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-sm-12">
+                        <div className="col-sm-3 mx-auto">
                             <form onSubmit={this.onSubmit}>
                                 <div className="form-group">
                                     <label>Username</label>

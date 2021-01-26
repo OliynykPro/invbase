@@ -34,7 +34,7 @@ export class Investors extends Component {
                     </div>
                     <div className="row list">
                         {this.props.investors.map((investor) => (
-                            <div key={investor.id} className="col-sm-12 col-md-3 investor-item">
+                            <div key={investor.id} className="col-sm-12 col-md-3 investor-item mb-4">
                                 <div>
                                     <p># {investor.id}</p>
                                     <p><img src={investor_img} alt={investor.company_name} /></p>

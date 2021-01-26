@@ -19,7 +19,7 @@ export class Header extends Component {
 
         const guestLinks = (
             <div>
-                <p><Link to="/register">Register</Link></p>
+                {/* <p><Link to="/register">Register</Link></p> */}
 
                 <button className="btn btn-secondary button-custom" type="button">
                     <span className="glyphicon glyphicon-log-in" aria-hidden="true"></span>
@@ -37,7 +37,7 @@ export class Header extends Component {
                     </button>
                     <div className="collapse navbar-collapse menu" id="navbarTogglerDemo02">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
@@ -45,7 +45,7 @@ export class Header extends Component {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Add investor</a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <strong>{user ? `Hello, ${user.username}` : ''}</strong>
