@@ -41,9 +41,9 @@ export class Investors extends Component {
                                     <p className="company_name"><Link to={`/investors/${investor.id}`}>{investor.company_name}</Link></p>
                                     <p className="website_url"><a href={investor.website_url} target="_blank">{investor.website_url}</a></p>
                                     <p className="buttons_group">
-                                        <a href="#">Edit</a>
-                                        <span> | </span>
-                                        <a href="#">More info</a>
+                                        {/* <a href="#">Edit</a>
+                                        <span> | </span> */}
+                                        <Link to={`/investors/${investor.id}`}>More info</Link>
                                     </p>
                                 </div>
                             </div>
